@@ -1,5 +1,4 @@
-Kuwar Parasar Jha
-1905926
+
 
 We have a simple BookClub database that is maintaining a list of books, who has lent the book, and who has borrowed the book. We can also add new book entries, borrow and return books.
 
