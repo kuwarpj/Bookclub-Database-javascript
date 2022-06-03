@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Club</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation-bar">
+      <div class="page-title">Book club</div>
+
+      <div class="logged-in-user-input">
+        <label>
+          <input id="logged-user" type="text" />
+        </label>
+        <button id="btn" onclick="loginFunction()">Log in</button>
+      </div>
+    </nav>
+
+    <section class="content-section">
+      <p id="logged-in-user-name">No user Logged In</p>
+      <table class="book-table" id="info-table">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Lender</th>
+            <th>Borrower</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+      </table>
+    </section>
+    <span > To Login use any of these userId = [user1, user2, user3, user4 ]</span>
+    <script type="text/javascript" src="library.js"></script>
+  </body>
+</html>
